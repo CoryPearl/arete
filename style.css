@@ -1,0 +1,234 @@
+* {
+  font-family: "Courier New", monospace;
+  margin: 0px;
+  padding: 0px;
+}
+
+html {
+  overflow: hidden;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url("./resources/bg.png");
+  background-size: 100vw 100vh;
+}
+
+#all {
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: auto;
+  height: 100vh;
+  width: 90vw;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+#main {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  background-color: rgba(36, 36, 36, 0.15);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.45);
+  height: 750px;
+  width: 100%;
+}
+
+#music {
+  width: 100%;
+  background-color: rgb(36, 36, 36);
+}
+
+#about {
+  width: 100%;
+  background-color: rgba(36, 36, 36, 0.15);
+  box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.45);
+}
+
+#copyright {
+  padding-top: 10px;
+  color: white;
+  font-size: 20px;
+}
+
+#logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#logo_text {
+  color: white;
+  font-size: 150px;
+  letter-spacing: 5px;
+}
+
+#logo_img {
+  width: 175px;
+  height: 175px;
+}
+
+.img {
+  margin-left: 20px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+#instagram {
+  width: 35px;
+  height: 35px;
+}
+
+#spotify {
+  width: 35px;
+  height: 35px;
+}
+
+#soundcloud {
+  height: 35px;
+}
+
+#links {
+  margin-top: 20px;
+  margin-bottom: -40px;
+}
+
+#scrollButton {
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  border: none;
+}
+
+#aboutButton {
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  cursor: pointer;
+  height: 50px;
+  width: 100px;
+  border: none;
+}
+
+#aboutButton:hover {
+  background-color: white;
+  color: black;
+}
+
+#scrollButton:hover {
+  background-color: white;
+  color: black;
+}
+
+#type {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+  text-align: center;
+  height: 100px;
+}
+#type_text {
+  font-weight: 1;
+  color: white;
+}
+
+h2 {
+  padding: 40px;
+  color: white;
+  font-size: 60px;
+}
+
+#songs {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#yellow {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+#yellow audio {
+  width: 350px;
+  border-radius: 0px;
+  border: none;
+  background-color: #f0f0f0;
+}
+
+#yellow img {
+  width: 350px;
+  height: 350px;
+}
+
+#yellow p {
+  width: 350px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+#about h1 {
+  color: white;
+  font-size: 60px;
+}
+
+#about_text {
+  color: white;
+  font-size: 20px;
+}
+
+#download {
+  cursor: pointer;
+  border: none;
+  height: 25px;
+  background-color: #f0f0f0;
+}
+
+#download:hover {
+  background-color: #d1cece;
+}
+
+@media only screen and (max-width: 600px) {
+  #bottom {
+    flex-direction: column;
+  }
+
+  #logo_text {
+    font-size: 100px;
+  }
+
+  #songs {
+    margin-left: 0px;
+  }
+
+  #music h2 {
+    padding: 0px;
+  }
+
+  #yellow audio {
+    width: 350px;
+  }
+
+  #yellow img {
+    width: 350px;
+    height: 350px;
+  }
+}
