@@ -1,5 +1,7 @@
 * {
-  font-family: "Courier New", monospace;
+  /* font-family: "Courier New", monospace; */
+  /* font-family: "Times New Roman", Times, serif; */
+  font-family: "Trirong", serif;
   margin: 0px;
   padding: 0px;
 }
@@ -12,7 +14,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-image: url("./resources/bg.png");
+  background-image: url("./resources/unnamed.jpg");
   background-size: 100vw 100vh;
 }
 
@@ -28,6 +30,13 @@ body {
   width: 0px;
 }
 
+.label {
+  color: white;
+  text-align: center;
+  width: 600px;
+  margin-bottom: 15px;
+}
+
 #main {
   display: flex;
   justify-content: center;
@@ -36,6 +45,29 @@ body {
   box-shadow: 0 0 15px 4px rgba(0, 0, 0, 0.45);
   height: 750px;
   width: 100%;
+}
+
+#about div {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+#about p {
+  width: 49%;
+}
+
+#about img {
+  width: 49%;
+  margin-bottom: 15px;
+  border: 3px solid black;
+}
+
+iframe {
+  margin-bottom: 20px;
+  height: 25vw;
+  width: 50vw;
+  box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.45);
 }
 
 #music {
@@ -48,7 +80,12 @@ body {
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 4vw;
+  color: white;
+}
+
+#music p {
+  font-size: 2vh;
   color: rgb(187, 187, 187);
 }
 
@@ -158,9 +195,9 @@ h3 {
 }
 
 h2 {
-  padding: 40px;
+  padding: 5px;
   color: white;
-  font-size: 60px;
+  font-size: 5vw;
 }
 
 #songs {
@@ -194,14 +231,5 @@ h2 {
 
   #music h2 {
     padding: 0px;
-  }
-
-  #yellow audio {
-    width: 350px;
-  }
-
-  #yellow img {
-    width: 350px;
-    height: 350px;
   }
 }
