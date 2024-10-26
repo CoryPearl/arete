@@ -89,6 +89,10 @@ h3 {
   color: white;
 }
 
+#music h2 {
+  padding-left: 30px;
+}
+
 #music p {
   font-size: 2vh;
   color: rgb(187, 187, 187);
@@ -227,7 +231,7 @@ h2 {
   }
 
   #music p {
-    font-size: 1vh;
+    font-size: 2vmin;
   }
 
   #logo_text {
@@ -240,6 +244,7 @@ h2 {
 
   #music h2 {
     padding: 0px;
+    margin-left: 15px;
   }
 
   #links {
