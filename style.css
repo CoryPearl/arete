@@ -226,7 +226,7 @@ h2 {
     flex-direction: column;
   }
 
-  #music p {
+  .label {
     font-size: 1.1vh;
   }
 
