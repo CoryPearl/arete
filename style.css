@@ -70,6 +70,11 @@ iframe {
   box-shadow: 0 0 15px 10px rgba(0, 0, 0, 0.45);
 }
 
+#links {
+  color: white;
+  font-size: 3vh;
+}
+
 #music {
   display: flex;
   flex-direction: column;
@@ -221,6 +226,10 @@ h2 {
     flex-direction: column;
   }
 
+  #music p {
+    font-size: 1.1vh;
+  }
+
   #logo_text {
     font-size: 100px;
   }
@@ -231,5 +240,25 @@ h2 {
 
   #music h2 {
     padding: 0px;
+  }
+
+  #links {
+    font-size: 2vh;
+  }
+
+  #type_text {
+    font-size: 2.5vh;
+  }
+
+  #about div {
+    flex-direction: column;
+  }
+
+  #about img {
+    width: 95%;
+  }
+
+  #about p {
+    width: 100%;
   }
 }
